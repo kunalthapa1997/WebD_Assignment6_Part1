@@ -10,6 +10,7 @@ body {
     text-align: center;
     margin-top: 50px;
     font-size: 32px;
+    color: #efe6e6;
   }
   
   #username {
@@ -20,6 +21,7 @@ body {
   p {
     text-align: center;
     font-size: 1.5rem;
+    color: #efe6e6;
   }
 
   form {
@@ -29,6 +31,7 @@ body {
     border: 1px solid #ccc;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0.9;
   }
   
   label {
@@ -97,3 +100,23 @@ body {
     font-size: 16px;
     margin-top: 10px;
   }
+
+.video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
