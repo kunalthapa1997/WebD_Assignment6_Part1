@@ -7,14 +7,14 @@
       body {
         margin: 0;
         padding: 0;
-        background-color: #0b0b0b;
+        background-color: #5da9a5;
         font-family: Arial, sans-serif;
         text-align: center;
       }
 
       h1 {
         text-align: center;
-        color: #efe6e6;
+        color: #333;;
         margin-top: 50px;
       }
 
